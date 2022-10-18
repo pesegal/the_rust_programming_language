@@ -14,8 +14,6 @@ fn main() {
     let second = second_word(&s);
     println!("The first word in: {s}, is {first} and the second is {second}.");
 
-
-
 }
 
 fn first_word(s: &str) -> &str {
